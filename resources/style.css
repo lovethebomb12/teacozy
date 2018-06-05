@@ -25,7 +25,6 @@ nav span {
   padding: 20px 10px;
   display: inline-block;
 }
-
 .logo {
   display: flex;
   align-items: center;
@@ -34,4 +33,25 @@ nav span {
 .logo img {
   padding-left: 10px;
   height: 50px;
+}
+.main-content {
+  padding-top: 69px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.flexbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#hero {
+  background-image: url("./img-mission-background.jpg");
+  height: 700px;
+
+}
+.mission {
+  background-color: black;
+  width: 1200px
 }
