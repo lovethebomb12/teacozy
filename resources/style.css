@@ -10,6 +10,10 @@ body {
 a {
   color: seashell;
 }
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -53,20 +57,42 @@ nav span {
 }
 .mission {
   background-color: black;
+  width: 100%;
 }
 #teagroup {
   width: 1000px;
+  padding: 70px 0;
 }
-.teaheader {
+.secheader {
   width: 100%;
 }
 .tea {
   width: 300px;
-  margin: 0 16px;
+  margin: 10px 15px;
 }
 .tea img {
   height: 200px;
 }
-.tea h4 {
-  margin-top: 10px;
+
+.location p {
+  margin: 35px 0;
+}
+#locations {
+  background-image: url("./img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+  width: 1200px;
+}
+.location {
+  background-color: black;
+  margin: 15px 20px;
+  opacity: 1;
+  width: 300px;
+}
+.contact {
+  height: 200px;
+}
+.copyright {
+  margin-left: 20px;
+  text-align: left;
 }
